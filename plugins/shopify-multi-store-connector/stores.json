@@ -1,0 +1,7 @@
+{
+  "stores": {
+    "GlercBikes-UK": { "credentialProfile": "UK" },
+    "GlercBikes-EU": { "credentialProfile": "EU" },
+    "GlercBikes-US": { "credentialProfile": "US" }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "shopify-multi-store": {
+      "command": "node",
+      "args": ["--use-system-ca", "./scripts/server.mjs"],
+      "cwd": ".",
+      "env": {
+        "SHOPIFY_API_VERSION": "2026-07"
+      },
+      "env_vars": [
+        "SHOPIFY_STORES_FILE",
+        "SHOPIFY_UK_SHOP_DOMAIN",
+        "SHOPIFY_UK_ADMIN_ACCESS_TOKEN",
+        "SHOPIFY_UK_CLIENT_ID",
+        "SHOPIFY_UK_CLIENT_SECRET",
+        "SHOPIFY_EU_SHOP_DOMAIN",
+        "SHOPIFY_EU_ADMIN_ACCESS_TOKEN",
+        "SHOPIFY_EU_CLIENT_ID",
+        "SHOPIFY_EU_CLIENT_SECRET",
+        "SHOPIFY_US_SHOP_DOMAIN",
+        "SHOPIFY_US_ADMIN_ACCESS_TOKEN",
+        "SHOPIFY_US_CLIENT_ID",
+        "SHOPIFY_US_CLIENT_SECRET"
+      ]
+    }
+  }
+}
