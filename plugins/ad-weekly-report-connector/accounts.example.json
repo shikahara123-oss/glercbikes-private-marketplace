@@ -1,0 +1,16 @@
+{
+  "accounts": {
+    "Glercbikes-UK": {
+      "credentialProfile": "UK",
+      "metaAccountId": "act_111111111111111",
+      "googleCustomerId": "2222222222",
+      "googleLoginCustomerId": "9999999999"
+    },
+    "Glercbikes-DE": {
+      "credentialProfile": "DE",
+      "metaAccountId": "act_333333333333333",
+      "googleCustomerId": "4444444444",
+      "googleLoginCustomerId": "9999999999"
+    }
+  }
+}

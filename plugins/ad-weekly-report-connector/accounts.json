@@ -1,0 +1,22 @@
+﻿{
+    "accounts":  {
+                     "Glercbikes-UK":  {
+                                           "credentialProfile":  "UK",
+                                           "metaAccountId":  "431197576746227",
+                                           "googleCustomerId":  "3541864091",
+                                           "googleLoginCustomerId":  "5290580045"
+                                       },
+                     "Glercbikes-EU":  {
+                                           "credentialProfile":  "EU",
+                                           "metaAccountId":  "1316865289524732",
+                                           "googleCustomerId":  "9373062876",
+                                           "googleLoginCustomerId":  "5290580045"
+                                       },
+                     "Glercbikes-US":  {
+                                           "credentialProfile":  "US",
+                                           "metaAccountId":  "1302171257615166",
+                                           "googleCustomerId":  "4321013674",
+                                           "googleLoginCustomerId":  "5290580045"
+                                       }
+                 }
+}

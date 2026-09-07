@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "ad-weekly-report": {
+      "command": "node",
+      "args": ["./scripts/server.mjs"],
+      "cwd": ".",
+      "env": {
+        "META_GRAPH_VERSION": "v23.0"
+      },
+      "env_vars": [
+        "AD_UK_META_ACCESS_TOKEN",
+        "AD_UK_GOOGLE_ADS_DEVELOPER_TOKEN",
+        "AD_UK_GOOGLE_ADS_REFRESH_TOKEN",
+        "AD_UK_GOOGLE_OAUTH_CLIENT_ID",
+        "AD_UK_GOOGLE_OAUTH_CLIENT_SECRET",
+        "AD_EU_META_ACCESS_TOKEN",
+        "AD_EU_GOOGLE_ADS_DEVELOPER_TOKEN",
+        "AD_EU_GOOGLE_ADS_REFRESH_TOKEN",
+        "AD_EU_GOOGLE_OAUTH_CLIENT_ID",
+        "AD_EU_GOOGLE_OAUTH_CLIENT_SECRET",
+        "AD_US_META_ACCESS_TOKEN",
+        "AD_US_GOOGLE_ADS_DEVELOPER_TOKEN",
+        "AD_US_GOOGLE_ADS_REFRESH_TOKEN",
+        "AD_US_GOOGLE_OAUTH_CLIENT_ID",
+        "AD_US_GOOGLE_OAUTH_CLIENT_SECRET"
+      ]
+    }
+  }
+}
