@@ -1,0 +1,32 @@
+{
+  "name": "glercbikes-private",
+  "interface": {
+    "displayName": "GlercBikes Private Plugins"
+  },
+  "plugins": [
+    {
+      "name": "ad-weekly-report-connector",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ad-weekly-report-connector"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data & Analytics"
+    },
+    {
+      "name": "shopify-multi-store-connector",
+      "source": {
+        "source": "local",
+        "path": "./plugins/shopify-multi-store-connector"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data & Analytics"
+    }
+  ]
+}
