@@ -1,0 +1,27 @@
+{
+  "name": "ad-weekly-report-connector",
+  "version": "0.3.0+codex.20260828055631",
+  "description": "Read-only multi-profile Meta Ads and Google Ads data for country-level weekly reports.",
+  "author": {
+    "name": "GlercBikesUK"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "\u5e7f\u544a\u6570\u636e\u5468\u62a5\u8fde\u63a5\u5668",
+    "shortDescription": "\u6309\u56fd\u5bb6\u8d26\u6237\u8bfb\u53d6 Meta Ads \u4e0e Google Ads \u5468\u62a5\u6307\u6807\u3002",
+    "longDescription": "\u901a\u8fc7\u4e00\u6b21\u5e73\u53f0\u6388\u6743\u7ba1\u7406\u591a\u4e2a\u56fd\u5bb6\u6216\u5e97\u94fa\u8d26\u6237\uff0c\u4ee5\u53ea\u8bfb\u65b9\u5f0f\u8bfb\u53d6 Meta Ads \u548c Google Ads \u7684\u8d26\u6237\u4e0e\u5e7f\u544a\u7cfb\u5217\u6570\u636e\uff0c\u5e76\u6309\u65e5\u671f\u751f\u6210\u7edf\u4e00\u5468\u62a5\u6307\u6807\u3002",
+    "developerName": "GlercBikesUK",
+    "category": "Data & Analytics",
+    "capabilities": [
+      "Read-only analytics",
+      "Meta Ads",
+      "Google Ads"
+    ],
+    "defaultPrompt": [
+      "\u68c0\u67e5\u5e7f\u544a\u6570\u636e\u5468\u62a5\u8fde\u63a5\u5668\u7684\u6388\u6743\u72b6\u6001\u5e76\u5217\u51fa\u5df2\u914d\u7f6e\u8d26\u6237\u3002",
+      "\u6c47\u603b Glercbikes-UK \u672c\u5468 Meta \u4e0e Google Ads \u7684\u82b1\u8d39\u3001\u70b9\u51fb\u3001\u8f6c\u5316\u548c ROAS\u3002",
+      "\u6309\u5e7f\u544a\u7cfb\u5217\u6bd4\u8f83\u6307\u5b9a\u56fd\u5bb6\u8d26\u6237\u672c\u5468\u7684\u5e7f\u544a\u6295\u653e\u8868\u73b0\u3002"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
