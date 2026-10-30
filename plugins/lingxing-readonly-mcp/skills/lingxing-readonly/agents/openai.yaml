@@ -1,0 +1,4 @@
+interface:
+  display_name: "领星库存与成本"
+  short_description: "查询领星海外仓库存、SKU成本与利润，适用于公司同事日常只读分析"
+  default_prompt: "使用 $lingxing-readonly 检查连接，并查询指定 SKU 的海外仓库存和成本。"

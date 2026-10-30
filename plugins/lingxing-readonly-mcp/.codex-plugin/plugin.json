@@ -1,0 +1,13 @@
+{
+  "name": "lingxing-readonly-mcp",
+  "version": "0.2.0",
+  "description": "Read-only Lingxing inventory, SKU costs and profit reports, with a standalone installable skill.",
+  "author": { "name": "GlercBikes" },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "领星 ERP 库存与成本",
+    "shortDescription": "只读查询海外仓库存、SKU成本与利润，附同事安装说明。",
+    "category": "Data & Analytics"
+  }
+}

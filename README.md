@@ -4,6 +4,7 @@ Private repository-backed marketplace containing:
 
 - Advertising Weekly Report Connector
 - Shopify Multi-Store Connector
+- [Lingxing ERP Inventory & Cost Skill](plugins/lingxing-readonly-mcp/README.md)
 
 ## Repository layout
 

@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.log
+*.csv
+*.xlsx
+*.zip
+node_modules/
+outputs/
+snapshots/
+*credentials*.json
+*token*.json

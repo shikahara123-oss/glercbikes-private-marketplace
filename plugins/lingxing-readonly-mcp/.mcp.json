@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "lingxing-readonly": {
+      "command": "node",
+      "args": ["./skills/lingxing-readonly/scripts/server.mjs"],
+      "cwd": ".",
+      "env_vars": ["LINGXING_MCP_URL", "LINGXING_MCP_KEY", "LINGXING_OPENAPI_APP_ID", "LINGXING_OPENAPI_APP_SECRET", "LINGXING_OPENAPI_BASE_URL", "LINGXING_OPENAPI_RELAY_TOKEN"]
+    }
+  }
+}

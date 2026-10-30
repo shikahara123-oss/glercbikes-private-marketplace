@@ -27,6 +27,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Data & Analytics"
+    },
+    {
+      "name": "lingxing-readonly-mcp",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lingxing-readonly-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data & Analytics"
     }
   ]
 }
